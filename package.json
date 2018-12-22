@@ -5,11 +5,7 @@
   "cordova": {
     "id": "phonegap-nfc",
     "platforms": [
-      "android",
-      "wp8",
-      "windows",
-      "blackberry10",
-      "ios"
+      "android"
     ]
   },
   "repository": {
@@ -21,11 +17,7 @@
     "ndef",
     "ecosystem:cordova",
     "cordova",
-    "cordova-android",
-    "cordova-wp8",
-    "cordova-windows",
-    "cordova-blackberry10",
-    "cordova-ios"
+    "cordova-android"
   ],
   "author": "Don Coleman <don.coleman@gmail.com>",
   "license": "MIT",
