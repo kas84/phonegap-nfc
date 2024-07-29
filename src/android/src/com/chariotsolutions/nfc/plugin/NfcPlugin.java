@@ -342,10 +342,10 @@ public class NfcPlugin extends CordovaPlugin {
                     if (ndef != null) {
                         callbackContext.success(buildNdefJSON(ndef, messages));
                     } else {
-                        callbackContext.success(Util.tagToJSON(tag));
+                        callbackContext.success(Util.tagToJSON(tag, messages));
                     }
                 } else if (action.equals(NfcAdapter.ACTION_TAG_DISCOVERED)) {
-                    callbackContext.success(Util.tagToJSON(tag));
+                    callbackContext.success(Util.tagToJSON(tag, messages));
                 } else {
                     if (data != null) {
                         callbackContext.success(data);
